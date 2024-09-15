@@ -1,14 +1,12 @@
-//
-//  main.cpp
 //  CIS25 - assignment 4
 //
 //  Created by maya nachiappan on 9/15/24.
 //
+// a program to print a table with two columns
 
 #include <iostream>
-
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+#include <iomanip>
+int main()
+{
+    
 }
