@@ -11,13 +11,13 @@ using namespace std;
 int main()
 {
     // initializing column width
-    const int colWidth = 12;
-    cout << setw(colWidth) << left << "Course"
-    << setw(colWidth) << left << "Students" << endl;
-    cout << setw(colWidth) << left << "C++"
-    << setw(colWidth) << right << "100" << endl;
-    cout << setw(colWidth) << left << "JavaScript"
-    << setw(colWidth) << right << "50" << endl;
+    const int colWidth = 12; // sets the column width to 12 units
+    cout << setw(colWidth) << left << "Course" // the column is left aligned
+    << setw(colWidth) << left << "Students" << endl; // the column is left aligned
+    cout << setw(colWidth) << left << "C++" // the column is left aligned
+    << setw(colWidth) << right << "100" << endl; // the column is right aligned
+    cout << setw(colWidth) << left << "JavaScript" // the column is left aligned
+    << setw(colWidth) << right << "50" << endl; // the column is right aligned
     
     return 0;
 }
